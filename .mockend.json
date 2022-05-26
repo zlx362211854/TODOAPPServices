@@ -10,5 +10,10 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "List": {
+    "title": {"regexp": "[A-Z][a-z]{5,10}"},
+    "status": {"string": ["TODO", "DONE"]},
+    "description": {"string": {}}
   }
 }
